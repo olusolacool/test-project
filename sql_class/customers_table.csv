@@ -1,0 +1,11 @@
+customer_id,customer_name,customer_gender,customer_location,customer_email
+1,Stan Marsh,M,USA,stanmar@mail.com
+2,Kyle Broflovski,M,UK,kylebro@mail.com
+3,Kenny McCormick,M,USA,kennycoc@mail.com
+4,Eric Cartman,M,USA,ericcar@mail.com
+5,Butters Stotch,M,UK,buttersst@mail565.com
+6,Randy Marsh,M,UK,randymaa@mail.com
+7,Wendy Testaburger,F,USA,wendytee@mail.com
+8,Leslie Meyers,F,USA,leslieme@mail.com
+9,Liane Cartman,F,UK,lianecaa@mail.com
+10,Bebe Stevens,F,UK,bebeste@mail.com

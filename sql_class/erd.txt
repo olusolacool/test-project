@@ -1,0 +1,33 @@
+TABLE orders_table {
+  "order_id" VARCHAR(50)
+  "customer_id" INTEGER
+  "product_id" VARCHAR(50)
+  "order_date" DATE
+  "delivery_status" VARCHAR(50)
+}
+
+TABLE products_table {
+  "product_id" VARCHAR(50)
+  "product_name" VARCHAR(255)
+  "price" INTEGER
+}
+
+TABLE customers_table {
+  "customer_id" INTEGER
+  "customer_name" VARCHAR(255)
+  "customer_gender" VARCHAR(1)
+  "customer_location" VARCHAR(50)
+  "customer_email" VARCHAR(255)
+}
+
+TABLE members_table {
+  "member_id" VARCHAR(50)
+  "customer_id" INTEGER
+  "join_date" DATE
+}
+
+Ref: "customers_table"."customer_id" < "orders_table"."customer_id"
+
+Ref: "customers_table"."customer_id" < "members_table"."customer_id"
+
+Ref: "products_table"."product_id" < "orders_table"."product_id"
